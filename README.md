@@ -1,6 +1,6 @@
 # mmrtracker-web
 
-![Deploy to GitHub Pages](https://github.com/muazamkamal/mmrtracker-web/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+[![Deploy to GitHub Pages](https://github.com/muazamkamal/mmrtracker-web/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/muazamkamal/mmrtracker-web/actions)
 
 ## Project setup
 
