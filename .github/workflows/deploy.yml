@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'public/*'
+      - 'src/*'
+      - 'package.json'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
