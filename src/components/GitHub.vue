@@ -56,4 +56,10 @@ export default {
   -webkit-filter: invert(1); /* safari 6.0 - 9.0 */
   filter: invert(1);
 }
+
+@media only screen and (max-width: 600px) {
+  .inner {
+    max-width: 200px;
+  }
+}
 </style>
