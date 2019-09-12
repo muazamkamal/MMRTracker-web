@@ -1,5 +1,7 @@
 <template>
-  <a href="https://github.com/muazamkamal/mmrtracker"><img id="gh-logo" alt="GitHub logo" src="../assets/gh-logo.svg"></a>
+  <div>
+    <a href="https://github.com/muazamkamal/mmrtracker"><img id="gh-logo" alt="GitHub logo" src="../assets/gh-logo.svg"></a>
+  </div>
 </template>
 
 <script>

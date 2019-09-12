@@ -1,9 +1,14 @@
 <template>
-  <div class="outer">
-    <div class="middle">
-      <div class="inner">
-        <GitHub/>
+  <div>
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+          <GitHub/>
+        </div>
       </div>
+    </div>
+    <div class="footer">
+      <a href="https://github.com/muazamkamal/mmrtracker-web" @mouseover="hover = true" @mouseleave="hover = false" class="source-text"><span v-if="hover">[ Source Code ]</span><span v-else>Source Code</span></a>
     </div>
   </div>
 </template>
@@ -15,17 +20,26 @@ export default {
   name: 'app',
   components: {
     GitHub
+  },
+  data () {
+    return {
+      hover: false
+    }
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 html {
   margin: 0;
   padding: 0;
 
   height: 100vh;
   width: 100%;
+
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -61,5 +75,20 @@ body {
   .inner {
     max-width: 200px;
   }
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 0;
+}
+
+.source-text {
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  color: white;
 }
 </style>
